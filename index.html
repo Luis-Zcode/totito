@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totito</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row border-bottom text-center fs-3 " style="min-height: 100px;">
+            <div id="0" class="col-4 bg-primary border-end accion1 accion4 accion8"></div>
+            <div id="1" class="col-4 bg-primary border-end accion1 accion5"></div>
+            <div id="2" class="col-4 bg-primary border-end accion1 accion6 accion7"></div>
+        </div>
+        <div class="row border-bottom text-center fs-3" style="min-height: 100px;">
+            <div id="3" class="col-4 bg-primary border-end accion2 accion4"></div>
+            <div id="4" class="col-4 bg-primary border-end accion2 accion5 accion7 accion8"></div>
+            <div id="5" class="col-4 bg-primary border-end accion2 accion6"></div>
+        </div>
+        <div class="row border-bottom text-center fs-3" style="min-height: 100px;">
+            <div id="6" class="col-4 bg-primary border-end accion3 accion4 accion7"></div>
+            <div id="7" class="col-4 bg-primary border-end accion3 accion5"></div>
+            <div id="8" class="col-4 bg-primary border-end accion3 accion6 accion8"></div>
+        </div>
+        <button class="nuevaRonda">nuevaRonda</button>
+
+        <br>
+        <div>
+            <p>Primer Jugador<input class="pantalla1" type="text" disabled></p>
+        </div>
+        <p>El primero que tenga 3 puntos gana</p>
+        <div>
+            <p>Segundo Jugador<input class="pantalla2" type="text" disabled></p>
+        </div>
+        <button class="nuevaPartida">nuevaPartida</button>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
